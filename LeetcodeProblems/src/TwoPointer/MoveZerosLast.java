@@ -3,7 +3,7 @@ package TwoPointer;
 public class MoveZerosLast {
 
 	public static void main(String[] args) {
-		int[]nums = {1,0};
+		int[]nums = {1,0,5,0,6,-1,2};
 		 int j=0;
 	       for(int i=0;i<nums.length;i++){
 	        if(nums[i]!=0){
@@ -54,7 +54,7 @@ public class MoveZerosLast {
 		}
 		}   */
 		for(int i=0;i<nums.length;i++) {
-			System.out.print(nums[i]+" ..");
+			System.out.print(nums[i]+"  ");
 		}
 	}
 
