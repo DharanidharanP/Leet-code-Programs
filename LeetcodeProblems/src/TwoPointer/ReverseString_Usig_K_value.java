@@ -6,10 +6,7 @@ public class ReverseString_Usig_K_value {
      String s="abcdefg";
      char ch[]=s.toCharArray();
      int k=2;
-     
-     int left=0;
-     int right=ch.length-1;
-     
+    
      int j=0;
     for(int i=0;i<k;i++) {
     	char temp=ch[i];
